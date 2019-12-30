@@ -34,6 +34,11 @@ p {
   color: #93cb52;
 }
 
+.bg-primary {
+  background: #93cb52;
+  color: #333;
+}
+
 .bg-light {
   background: #f4f4f4;
   color: #333;
@@ -146,7 +151,7 @@ p {
   padding: 0 2rem;
   /* overlay */
   position: absolute;
-  top: 60px;
+  top: 65px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -193,4 +198,31 @@ p {
   display: block;
   margin: auto;
   width: 65%;
+}
+/* Section: Contact  */
+#contact {
+  display: flex;
+}
+
+.map,
+.contact-form {
+  flex: 1;
+}
+
+.contact-form,
+.form-group {
+  margin: 0.75rem;
+}
+
+.contact-form label {
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+}
+
+.map {
+  margin: 0.8rem 0;
 }
